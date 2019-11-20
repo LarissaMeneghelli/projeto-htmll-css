@@ -23,7 +23,6 @@ h2 {
 	position: relative;
 	text-align: center;
 	width: 679px;
-	border-bottom: 1px dashed #7E9F19;
 	margin: 0; 
 }
 
@@ -48,11 +47,19 @@ h2::after {
 }
 
 article a{
-	color: #2C88A7;
+	color: black;
 	font-weight: bold;
 }
+
+h1 {
+	text-align: center;
+	font-family: inherit;
+    font-size: 2rem;
+    border-bottom: ridge 2px black;
+}
+
 h1 a{
-	color: #7E9F19;
+	color: #cc2727;
 	text-decoration: none;
 }
 h1 a:hover{
